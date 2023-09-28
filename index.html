@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">SHEWANA<span> SAFDAR</span></a>
+        </div>
+        <ul class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About me">About me</a></li>
+            <li><a href="#Qualification">Qualification</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- home-section -->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h1>Welcome to my <span>Portfolio</span></h1>
+            <p>Watch my website to see my marvalleous talent</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="About me">
+        <h2>About me</h2>
+        <div class="row">
+            <div class="col">
+                <img src="https://images.template.net/90759/About-Me-Background.jpeg" alt="">
+            </div>
+            <div class="cols">
+                <p>here i'm shewana.i am studying in BS-IT.i curently in 6TH semester.i am very passionate about my carrier.i recently learning the html css and javascript language.i want to do the internship in web development.i am very excited to create the websites on my own.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+<section class="qualification" id="Qualification">
+    <h2>Qualification</h2>
+    <div class="boxes">
+    <div class="box">
+     <h2>Matrix</h2>
+     <p>I done my matrix in <strong>science</strong> subject.<br>Govt.zeenat sakandriya for girls.<br>Grade:A+<br>2016-2018 </p>
+    </div>
+    <div class="box">
+<h2>Intermediate</h2>
+<p>I done my FSC in <strong>pre-engineering</strong> subject.<br>Govt.post graduate college for women<br>Grade:B <br>2018-2020</p>
+    </div>
+    <div class="box">
+<h2>Bacholar's</h2>
+<p>I am currently study in <strong>BS-IT</strong><br>Govt.viqar un nissa college for women rawalpindi.<br>CGPA:3.16<br>2020-present</p>
+    </div>
+    </div>
+</section>
+<hr>
+<!-- <section class="skill" id="Skills">
+    <h2>Skills</h2>
+    <p>My skills include <span>MS WORD,</span>MS EXCEL,<span>MS POWERPOINT,</span>MS ACCESS,<span>HTML,</span>CSS
+</p>
+    <div class="box-1">
+        <div class="box-2">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="box-2"><img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="box-2">
+            <img src="https://download.logo.wine/logo/Microsoft_Access/Microsoft_Access-Logo.wine.png" alt="">
+        </div>
+        <div class="box-2">
+            <img src="https://w7.pngwing.com/pngs/257/475/png-transparent-web-development-html5-video-css3-software-development-frontend-web-development-thumbnail.png" alt="">
+        </div>
+    </div>
+</section> -->
+<section class="container" id="Skills">
+    <div class="card">
+        <div class="card-box card-1"></div>
+        <h2>MS WORD</h2>
+        <p>In this I learn many things to make the documentation and how we set the proper </p>
+    </div>
+    <div class="card"> 
+        <div class="card-box card-2"></div>
+        <h2>MS POWERPOINT</h2>
+        <p>In this I learn how to make the slides in different ways using different tools</p>
+</div>
+    <div class="card">
+        <div class="card-box card-3"></div>
+        <h2>MS ACCESS</h2>
+        <p>In this i learn how to create database table and form and apply query on table</p>
+    </div>
+    <div class="card">
+        <div class="card-box card-4"></div>
+        <h2>HTML,CSS</h2>
+        <p>In this i currently learn and explore the new things which help me</p>
+    </div>
+</section>
+<hr>
+<section class="contact" id="Contact">
+    <h2>Get in Touch</h2>
+    <p>if you have any query about my portfolio,so don't hesitate to contact me.please contact me very freely <span>THANKS</span></p>
+    <div class="row-1">
+        <div class="col-1">
+            <ul class="contact-info">
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    +92 3320474394
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    shewana5420@gmail.com
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <form class="form-get" action="">
+                <div class="contact-form">
+               
+                    <input type="name" name="name" placeholder=" Enter Your Name" required>
+                </div>
+                <div class="contact-form">
+                
+                    <input type="passw0rd" name="name" placeholder="Enter Your Passward">
+                </div>
+                <div class="contact-form">
+                
+                    <input type="email" name="name" placeholder="Enter Your Email">
+                </div>
+                <div class="contact-form">
+                   
+                    <textarea name="name" id="" cols="50" rows="3">Message here</textarea>
+                </div>
+            </div>
+            </form>
+            
+    </div>
+</section>
+<div>
+    <button><a href="download/shewana resume.pdf" download="resume">DOWNLOAD CV</a></button>
+</div>
+ <footer>
+    <div class="center">
+        Copyright &copy; All Reservesd
+    </div>
+   </footer>
+</body>
+</html>
